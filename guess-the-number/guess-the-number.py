@@ -1,6 +1,7 @@
 import random
-
-r = random.randint(1, 100)
+start = int(input('Please decide the start of the range: '))
+end = int(input('Please decide the end of the range: '))
+r = random.randint(start, end)
 count = 0
 while True:
 	count += 1
